@@ -14,13 +14,22 @@
 <body>
   <!-- Seu código aqui -->
   <header>
-    <h1 class="'header-trybe">Trybe Hotel</h1>
-    <img src="images.png" alt="Logo da Trybe">
+    <div id="header-container">
+      <img src="images.png" alt="Logo da Trybe" id="logo-img">
+      <h1 class="'header-trybe">Trybe Hotel</h1>
+    </div> 
+
   </header>
-  <form action="">
-    <section class="hotel-form">
-      <input type="date" name="checkin-checkout" id="" class="input-checkin">
-      <input type="date" name="checkin-checkout" id="" class="input-checkout">
+  <form action="" method="get">
+    <section class="hotel-form" id="datas">
+      <div class="datas">
+        <label for="checkin">Check-in</label>
+        <input type="date" name="checkin-checkout" id="checkin" class="input-checkin">
+      </div>
+      <div class="datas">
+        <label for="checkout">Check-out</label>
+        <input type="date" name="checkin-checkout" id="checkout" class="input-checkout">
+      </div>  
     </section>
     <section class="hotel-form">
       <p>Acomodação</p>

@@ -45,3 +45,26 @@ main {
   margin-right: auto;
   max-width: 25%;
 }
+
+#logo-img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+#header-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#datas {
+  display: flex;
+  justify-content: center;
+}
+
+.datas {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
