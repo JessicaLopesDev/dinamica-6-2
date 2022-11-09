@@ -13,7 +13,42 @@
 
 <body>
   <!-- Seu código aqui -->
-  
+  <header>
+    <h1 class="'header-trybe">Trybe Hotel</h1>
+    <img src="images.png" alt="Logo da Trybe">
+  </header>
+  <form action="">
+    <section class="hotel-form">
+      <input type="date" name="checkin-checkout" id="" class="input-checkin">
+      <input type="date" name="checkin-checkout" id="" class="input-checkout">
+    </section>
+    <section class="hotel-form">
+      <p>Acomodação</p>
+      <label for="comum">
+        <input type="radio" name="bedroom" id="comum" class="bedroom" value="comum"> Comum
+      </label>
+      <label for="club">
+        <input type="radio" name="bedroom" id="club" class="bedroom" value="club"> Club
+      </label>
+      <label for="luxo">
+        <input type="radio" name="bedroom" id="luxo" class="bedroom" value="luxo"> Luxo
+      </label>
+    </section>
+    <section class="hotel-form">
+      <label for="n-hospedes">Número de Hóspedes</label> <br>
+        <select name="" id="n-hospedes" class="form-select">
+          <option value="1" class="nPessoas">1</option>
+          <option value="2" class="nPessoas">2</option>
+          <option value="3" class="nPessoas">3</option>
+          <option value="4" class="nPessoas">4</option>
+        </select>
+    </section>
+    <section class="hotel-form">
+      <textarea name="observacao" placeholder="Observações" class="obs"></textarea>
+    </section>
+    <button type="submit" class="btn btn-success">Reservar</button>
+  </form>
+
 </body>
 
 </html>
